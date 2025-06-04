@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vestigium UAZ</title>
+  <style>
+    :root {
+      --azul-uaz: #002147;
+      --azul-secundario: #003366;
+      --dorado: #d4af37;
+      --fondo: #f5f5f5;
+      --texto: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--fondo);
+      color: var(--texto);
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--azul-uaz), var(--azul-secundario));
+      color: white;
+      padding: 2rem 1rem 1rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header img {
+      max-height: 80px;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: var(--azul-secundario);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.75rem 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: var(--dorado);
+      color: black;
+    }
+
+    .container {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--azul-uaz);
+      border-bottom: 2px solid var(--dorado);
+      display: inline-block;
+      padding-bottom: 0.25rem;
+    }
+
+    footer {
+      background-color: var(--azul-uaz);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/A_digital_graphic_design_webpage_header_for_\"logo.png" alt="Huella de agua - Vestigium UAZ">
+    <h1>Vestigium UAZ</h1>
+    <p>La huella de la ciencia en la sociedad</p>
+  </header>
+
+  <nav>
+    <a href="#agua-sociedad">Agua y Sociedad</a>
+    <a href="#tlalocan">Tlalocan</a>
+    <a href="#biografias">Biografías Acuáticas</a>
+    <a href="#norma-dignidad">Norma y Dignidad</a>
+    <a href="#indiferencia">Indiferencia</a>
+  </nav>
+
+  <div class="container">
+    <h2>Bienvenido a Vestigium UAZ</h2>
+    <p>
+      Este sitio forma parte del esfuerzo de la Universidad Autónoma de Zacatecas por divulgar la investigación científica
+      y la oferta educativa de posgrado. Aquí encontrarás contenidos dedicados al análisis del agua como recurso natural,
+      cultural, social y político. A través de diferentes enfoques, exploraremos la relación entre el agua y la vida en
+      comunidad, sus narrativas, desafíos normativos y éticos, así como las consecuencias de su abandono.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 Universidad Autónoma de Zacatecas.</p>
+  </footer>
+</body>
+</html>
